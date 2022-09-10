@@ -28,11 +28,13 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
 ## Gazebo Environment Setup
+- Follow the given steps in simulate the same world environment as shown in this video.
 ```shell
 $ cd ~/catkin_ws/src
 $ mv sanjeev_1.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/
 $ mv sanjeev_world2.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/
 ```
+
 
 
 
