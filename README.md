@@ -4,6 +4,7 @@
 ## Table of Content
 * [Task Description](#task-description)
 * [Environment Setup](#environment-setup)
+* [Gazebo Environment Setup](#gazebo-environment-setup)
 
 ## Task Description
 A robot `turtlebot3` is moving the unknown world, that contains some objects like `construction_barrel, dumpster, jersey_barrier, number1 etc`.
@@ -25,9 +26,13 @@ $ git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 $ cd ~/catkin_ws && catkin_make
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
-
 ```
-
+## Gazebo Environment Setup
+```shell
+$ cd ~/catkin_ws/src
+$ mv sanjeev_1.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/
+$ mv sanjeev_world2.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/
+```
 
 
 
