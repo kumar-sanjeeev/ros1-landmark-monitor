@@ -39,7 +39,7 @@ $ mv sanjeev_world2.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gaze
 $ cd ~/catkin_ws
 $ catkin_make
 ```
-## How to run the code ros server and client
+## How to run the code: ros server and client
 ```shell
 $ roscore
 $ export TURTLEBOT3_MODEL=burger
