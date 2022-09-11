@@ -1,6 +1,7 @@
-/* ---------------ROS CLIENT------------------
+/* ---------------ROS CLIENT-----------------------------------------
+## Client is the one who is asking for the services provided by the Node
 
-___Important_Points___
+             ___Important_Points___
 ## will printout the closest landmark
 ## print out the distance of each landmark
 ## don't need to use the ros::spin(), bcz landmark_client just prints
